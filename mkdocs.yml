@@ -1,0 +1,28 @@
+pages:
+  - Home: 'index.md'
+
+site_name: 'ISLRnotes'
+
+#site_description: 'The Elements of Statistical Learning(ESL) 的中文翻译'
+
+site_url: https://szcf-weiya.github.io/ESL-CN/
+
+repo_url: https://szcf-weiya.github.io
+
+markdown_extensions:
+  - admonition
+  - smarty
+  - sane_lists
+  - mdx_math
+
+#extra_javascript:
+#  - js/MathJax/MathJax.js?config=TeX-AMS_CHTML
+#  - js/mymathjax.js
+
+#extra_css:
+#  - css/newsprint.css
+#  - css/admonition_fix.css
+
+docs_dir: 'docs'
+
+theme: 'material'
