@@ -5,12 +5,12 @@ site_name: 'ISLRnotes'
 
 #site_description: 'The Elements of Statistical Learning(ESL) 的中文翻译'
 
-site_url: https://szcf-weiya.github.io/ESL-CN/
-
-repo_url: https://szcf-weiya.github.io
+site_url: https://szcf-weiya.github.io/cn
+repo_url: https://szcf-weiya.github.io/cn
 
 markdown_extensions:
   - admonition
+  - codehilite
   - smarty
   - sane_lists
   - mdx_math
@@ -26,3 +26,14 @@ markdown_extensions:
 docs_dir: 'docs'
 
 theme: 'material'
+
+google_analytics:
+  - 'UA-85007363-5'
+  - 'auto'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/szcf-weiya'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/lijun-wang-a11139129/'
