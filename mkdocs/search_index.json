@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Hello", 
+            "text": "TODO\n\n\nISLR: \nAn Introduction to Statistical Learning with Applications in R", 
             "title": "Home"
         }, 
         {
-            "location": "/#hello", 
-            "text": "", 
-            "title": "Hello"
+            "location": "/#todo", 
+            "text": "ISLR:  An Introduction to Statistical Learning with Applications in R", 
+            "title": "TODO"
         }
     ]
 }
