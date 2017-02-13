@@ -8,12 +8,9 @@ site_name: 'ISLRnotes'
 site_url: https://szcf-weiya.github.io/cn
 repo_url: https://szcf-weiya.github.io/cn
 
-markdown_extensions:
-  - admonition
-  - codehilite
-  - smarty
-  - sane_lists
-  - mdx_math
+# copyright
+copyright: 'Copyright &copy; 2016 weiya'
+
 
 #extra_javascript:
 #  - js/MathJax/MathJax.js?config=TeX-AMS_CHTML
@@ -27,13 +24,22 @@ docs_dir: 'docs'
 
 theme: 'material'
 
-google_analytics:
-  - 'UA-85007363-5'
-  - 'auto'
-
 extra:
   social:
     - type: 'github'
       link: 'https://github.com/szcf-weiya'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/in/lijun-wang-a11139129/'
+
+google_analytics:
+  - 'UA-85007363-5'
+  - 'auto'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - smarty
+  - sane_lists
+  - meta
+  - mdx_math
+
